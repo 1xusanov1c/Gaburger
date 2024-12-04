@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                'yash': 'rgba(78, 159, 13, 1)'
+              },
+              backgroundImage: {
+                'nav-bg': "url('./images/bg_img 1.png')",
+                'main-bg': "url('./images/main-bg.png')"
+              },
+              fontFamily: {
+                raleway: ['Raleway']
+              }
+
+            }
+          }
+        }
+      </script>
+    <title>Document</title>
+</head>
+<body class="bg-black font-raleway">
+
+    <nav class=" max-w-full min-h-[768px] bg-nav-bg">
+        <div class="container  m-auto max-w-[85%]  flex justify-between itmes-center">
+            <div class="itmes-center py-[33px] ">
+                <img src="./images/Group 1.png" alt="">
+            </div>
+            <div class="text-yash ">
+                <ul class="flex gap-[50px] w-[464px] h-[90px] py-[33px] ">
+                    <li><a href="#" class="hover:gap-[2px]  hover:px-[20px] hover:py-[30px] hover:bg-yash hover:text-white ">Корзина</a></li>
+                    <li><a href="#" class="hover:gap-[2px]  hover:px-[20px] hover:py-[30px] hover:bg-yash hover:text-white ">Меню</a></li>
+                    <li><a href="#" class="hover:gap-[2px]  hover:px-[20px] hover:py-[30px] hover:bg-yash hover:text-white ">О нас</a></li>
+                    <li><a href="#" class="hover:gap-[2px]  hover:px-[20px] hover:py-[30px] hover:bg-yash hover:text-white ">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container  m-auto max-w-[85%]">
+            <h1 class="text-[72px] text-yash mt-[180px]">Большой гамбургер</h1>
+            <p class="text-[32px] text-yash mt-[20px]">говядина</p>
+            <p class="text-white text-[18px] mt-[30px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом, - таков классический портрет гамбургера, наиболее распространенной «быстрой» еды в США, от отравления которой ежедневно на больничных койках оказываются десятки тысяч американцев</p>
+            <button class="w-[350px] h-[100px] bg-yash text-[60px] font-raleway mt-[52px] ">14 500</button>
+        </div>
+
+    </nav>
+
+
+
+
+
+
+
+
+    <header class="bg-black">
+        <div class="container  m-auto max-w-[85%] min-h-[80vh] text-white ">
+            <ul class="flex itmes-center text-white gap-[44px] mt-[47px]">
+                <li class="hover:text-green-500">Гамбургеры</li>
+                <li class="hover:text-green-500">Хот доги</li>
+                <li class="hover:text-green-500">Пицца</li>
+                <li class="hover:text-green-500">Напитки</li>
+                <li class="hover:text-green-500">Соки</li>
+            </ul>
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-[15px] mt-[40px] mb-[40px]">
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                <div class=" h-auto">
+                    <div class="relative ">
+                        <img class="w-[100%]" src="./images/Без имени-1 3.png" alt="burger" >
+                        <button class="absolute bottom-0 px-[57px] py-[17px] bg-yash ">14500</button>
+                    </div>
+                    <h2 class="text-yash text-[24px] mt-[36px] font-bold">C  ГОВЯДИНОЙ</h2>
+                    <p class="text-[16px] mt-[7px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </div>
+                
+                
+        </div>
+    </header>
+
+
+    <main class=" max-w-full min-h-[559px] bg-main-bg mt-[85px]">
+        <div class="container  m-auto max-w-[85%] text-white itmes-center">
+            <h2 class="text-[32px] font-bold text-center pt-[42px] hover:text-yash hover:underline hover:underline-offset-[14px]">Уникальная рецептура</h2>
+            <p class="text-[18px] pt-[61px]">Гамбургер является разновидностью сэндвича, состоящей из жареной рубленой котлеты, что подается внутри разрезанной круглой булки. Он обычно дополняется разнообразными приправами, к примеру, листьями салата, кетчупом и майонезом, дольками маринованного огурца, помидора или кабачка, сырым или поджаренным луком.</p>
+            <p class="text-[18px] pt-[25px]">Будучи наиболее распространенной «быстрой» едой в США, гамбургер имеет далеко не американское происхождение. Ученые приписывают его авторство кочевникам-скифам, которые клали обжаренное мясо между двумя хлебными ломтиками. А в Новый свет «король» фаст-фуда приехал вместе с немецкими иммигрантами: его назвали, кстати, в честь Гамбурга, второго по масштабам города Германии. Официальной датой продажи первого гамбургера в США считается 27 июля 1900-го - в этот день гастроном из Нью-Хейвена предложил жителям города покупать приправленную кетчупом котлету, «зажатую» между двумя кусками булки. Изначально такая еда была прерогативой бедных слоев населения, но вскоре по всей стране стали открываться «фаст-фудовые» заведения, в которых, быстрым было не только питание, но и обслуживание, и смена клиентов. Эти общепиты взяли курс на оперативное детское питание - и для всегда занятого рабочего класса на тот момент они стали лучшим решением проблемы, где и чем быстро накормить детей.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <h2 class="text-yash text-[36px] font-bold pt-[44px] text-center">Наши филиалы</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.7121820717452!2d69.21927087534115!3d41.29336810182288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8be730747acd%3A0x7548041987730afa!2zU3RyZWV0IDc3INCd0L7QstC30LA!5e0!3m2!1sen!2s!4v1732558516812!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy" class="w-full h-[500px] pt-[46px]" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <div class="flex justify-between container m-auto max-w-[85%] pt-[44px]">
+            <img src="./images/Group 1.png" alt="">
+            <section class="text-yash text-[24px] font-sans font-bold">+998 90 980 77 23</section>
+        </div>
+        <div class="container m-auto max-w-[85%] pt-[52px] text-center">
+            <ul class="flex flex-row gap-[40px] text-white px-[250px]">
+                <li><a href="#" class="hover:text-yash text-[18px]">Меню</a></li>
+                <li><a href="#" class="hover:text-yash text-[18px]">О нас</a></li>
+                <li><a href="#" class="hover:text-yash text-[18px]">Контакты</a></li>
+                <li><a href="#" class="hover:text-yash text-[18px]">Instagram</a></li>
+                <li><a href="#" class="hover:text-yash text-[18px]">Facebook</a></li>
+                <li><a href="#" class="hover:text-yash text-[18px]">Telegram Bot</a></li>
+            </ul>
+            <p class="text-white font-thin pt-[34px] pb-[47px]">Сайт разработан в целях обучения © PROWEB 2019</p>
+        </div>
+    </footer>
+
+</body>
+</html>
